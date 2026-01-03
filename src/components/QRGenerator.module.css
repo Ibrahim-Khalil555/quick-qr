@@ -1,6 +1,6 @@
 .page {
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100vh;
+  width: 100vw;
   background-color: #f4f6f8;
   display: flex;
   flex-direction: column;
@@ -20,15 +20,19 @@
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .input {
-  width: 260px;
+  width: 100%;
   padding: 10px;
   font-size: 15px;
   border-radius: 6px;
   border: 1px solid #d1d5db;
   outline: none;
+  box-sizing: border-box;
 }
 
 .input:focus {
